@@ -1,0 +1,27 @@
+Included Files:
+- main.cpp
+- Parse.cpp & Parse.h
+- Mesh.cpp & Mesh.h
+- Vector2D.cpp & Vector2D.h
+- Vector3D.cpp & Vector3D.h
+- Objects.cpp & Objects.h: Defines the objects of the input file (Lights, Camera, Triangles, Spheres, Planes, etc)
+- Ray.cpp & Ray.h: Defines the ray used in the tracing program.
+- RayTracer.cpp & RayTracer.h: Defines the ray tracing execution.
+- SceneReader.cpp & SceneReader.h: Defines the class that reads the input file.
+- Surface.h: Defines the super class used by BVH, Triangle, and Sphere.
+- bvh_box.cpp & bvh_box.h: Defines the bounding box for an object (Triangle or Sphere)
+- BVH.cpp & BVH.h: Defines the Bounding Volume Hierarchy structure. 
+
+Compile:
+- Makefile -- The make file for all the above files.
+
+To run the main program, just type:
+- ./Theme06_m01 path_of_file/file_name.txt
+
+i.e. ./Theme06_m01 /User/xxx/Folder_name/file_name.txt
+
+
+NOTE: I am a novice C++ programmer please feel free to fix and/or recommend a solution to any bugs found. Thanks.
+
+
+
